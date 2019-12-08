@@ -623,9 +623,9 @@ button: "Aww yiss!",
 			<div class="modal-body">
 
           <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
-        else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
+        else if($msg){?><div class="succalert alert-success alert-dismissible fade showWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
              
-             <form method="post">
+             <form method="post" action ="#contact-section">
 				<div class="form-group">
 				  <label for="appointment_name" class="text-black">Full Name</label>
 				  <input type="text" class="form-control" id="fullname" required="required" name="fullname">
