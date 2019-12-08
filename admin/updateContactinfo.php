@@ -86,6 +86,7 @@ $msg="Info Updateed successfully";
 					<div class="col-md-12">
 					
 						<h2 class="page-title">Update Contact Us</h2>
+						
 
 						<div class="row">
 							<div class="col-md-10">
